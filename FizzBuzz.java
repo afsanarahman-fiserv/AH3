@@ -15,10 +15,7 @@ public class FizzBuzz {
     }
 
     public static void recursiveFizzBuzz(int n) {
-        if(n == 1) {
-            System.out.print(1 + " ");
-            return;
-        }
+        if(n == 0) return;
         recursiveFizzBuzz(n-1);
 
         if(n % 3 == 0 && n % 5 == 0) {
